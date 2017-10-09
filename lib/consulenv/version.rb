@@ -1,0 +1,3 @@
+module Consulenv
+  VERSION = "0.0.0"
+end

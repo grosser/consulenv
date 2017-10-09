@@ -1,0 +1,38 @@
+PATH
+  remote: .
+  specs:
+    consulenv (0.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bump (0.5.4)
+    diff-lcs (1.3)
+    rake (12.1.0)
+    rspec (3.6.0)
+      rspec-core (~> 3.6.0)
+      rspec-expectations (~> 3.6.0)
+      rspec-mocks (~> 3.6.0)
+    rspec-core (3.6.0)
+      rspec-support (~> 3.6.0)
+    rspec-expectations (3.6.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.6.0)
+    rspec-mocks (3.6.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.6.0)
+    rspec-support (3.6.0)
+    single_cov (0.7.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bump
+  consulenv!
+  rake
+  rspec
+  single_cov
+
+BUNDLED WITH
+   1.15.3
